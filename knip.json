@@ -1,0 +1,27 @@
+{
+    "entry": [
+        "src/main.tsx"
+    ],
+    "ignore": [
+        "test/jsdom-extended.ts",
+        "jest.config.ts"
+    ],
+    "ignoreDependencies": [
+        "jest-environment-jsdom",
+        "ts-node"
+    ],
+    "rules": {
+        "files": "error",
+        "dependencies": "error",
+        "unlisted": "error",
+        "binaries": "error",
+        "unresolved": "error",
+        "exports": "error",
+        "types": "error",
+        "nsExports": "error",
+        "nsTypes": "error",
+        "enumMembers": "error",
+        "classMembers": "error",
+        "duplicates": "error"
+    }
+}
